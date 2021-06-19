@@ -39,8 +39,8 @@ public class AnagramString {
 			}
 		}
 		
-		if(isAnagram) System.out.println("Anagram");
-		else System.out.println("Not Anagram");
+		if(isAnagram) System.out.println("String Is Anagram");
+		else System.out.println("String Is Not Anagram");
 		
 	}
 
