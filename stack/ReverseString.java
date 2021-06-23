@@ -19,8 +19,8 @@ class Stack{
     {
         if (top >= size)
         {
-        System.out.println("Stack Overflow");
-        return false;
+            System.out.println("Stack Overflow");
+            return false;
         }
         else
         {
@@ -33,8 +33,8 @@ class Stack{
     {
         if (top < 0)
         {
-        System.out.println("Stack Underflow");
-        return 0;
+            System.out.println("Stack Underflow");
+            return 0;
         }
         else
         {
@@ -45,15 +45,6 @@ class Stack{
 }
 
 public class ReverseString {
-
-    public static void main(String[] args) {
-
-        StringBuffer s = new StringBuffer("ayiraboD laveK");
-
-        reverse(s);
-
-        System.out.println("Reversed String Is: " + s); 
-    }
 
     private static void reverse(StringBuffer str) {
 
@@ -71,4 +62,12 @@ public class ReverseString {
         }
     } 
 
+    public static void main(String[] args) {
+
+        StringBuffer s = new StringBuffer("ayiraboD laveK");
+
+        reverse(s);
+
+        System.out.println("Reversed String Is: " + s); 
+    }
 }
