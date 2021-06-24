@@ -44,4 +44,25 @@ public class MyQueue<E> {
 		return temp.data;
 	}
 
+    public E front(){
+
+        if (head == null) {
+			return null;
+		}
+
+        return head.data;
+    }
+
+    public void display(){
+        
+        if(head == null) {
+			return;
+		}
+
+        Node<E> temp = head;
+        while(temp !=null){
+            System.out.print(temp.data + " ");
+            temp = temp.next;
+        }
+    }
 }
